@@ -1,0 +1,43 @@
+name: Build and Deploy to Netlify
+
+on:
+  push:
+    branches:
+      - 'main'      # 根据你的主分支名称调整
+      - 'master'
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11' # 推荐指定一个具体版本
+
+      - name: Install Dependencies
+        run: |
+          # 检查并安装 requirements.txt
+          if [ -f requirements.txt ]; then
+            pip install -r requirements.txt
+          else
+            # 或者直接安装 mkdocs (不推荐，最好用 requirements.txt)
+            pip install mkdocs mkdocs-material
+          fi
+
+      - name: Build MkDocs Site
+        run: mkdocs build
+
+      # 使用 Netlify CLI Action 进行部署
+      - name: Deploy to Netlify
+        uses: netlify/actions/cli@v1
+        env:
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
+          NETLIFY_SITE_ID: ${{ secrets.NETLIFY_SITE_ID }}
+        with:
+          args: deploy --dir=site --prod # --prod 标志表示部署到生产环境（主 URL）
+          # 如果你只想预览部署（创建一个预览链接），可以去掉 --prod
+          # args: deploy --dir=site
