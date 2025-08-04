@@ -23,10 +23,13 @@ plugins:
    # 提前构建索引，加快加载速度
 
 markdown_extensions:
+  - pymdownx.tabbed
+  - pymdownx.details
   - pymdownx.highlight
   - pymdownx.superfences
   - attr_list
   - admonition
+
 
 
 
