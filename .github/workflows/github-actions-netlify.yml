@@ -28,5 +28,11 @@ jobs:
 
       - name: Build MkDocs Site
         run: mkdocs build
-
+      - name: Deploy to netlify
+        uses: netlify/actions/cli@master
+        with:
+          args: deploy --dir=public --prod
+        env:
+          NETLIFY_SITE_ID: ${{ secrets.DEV_NETLIFY_SITE_ID }}
+          NETLIFY_AUTH_TOKEN: ${{ secrets.NETLIFY_AUTH_TOKEN }}
 
