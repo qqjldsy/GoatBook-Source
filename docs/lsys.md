@@ -9,7 +9,7 @@
 在**帝都精灵、[绿宝石](https://goatwiki.netlify.app/name/?_refluxos=a10#_7)、[维多利亚](https://goatwiki.netlify.app/name/?_refluxos=a10#_8)**等人的合力围剿下，  
 马步芳最终兵败身亡，并发表**独立宣言**：  
 
->我是傻逼，纯乐子人😭--马步芳
+>我是傻逼，纯乐子人😭     --马步芳
 
 随即不久，众人之志或是感动了先帝，[**茕茕孑立的山羊**](https://goatwiki.netlify.app/name/?_refluxos=a10#_4)
 竟原地复活，宣布废除**茕二世**，并再次登基上位
