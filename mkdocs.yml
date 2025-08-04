@@ -1,12 +1,15 @@
 site_name: 茕山羊维基
 nav:
   - 主页: index.md
-  - 会议记录: meeting.md
-  - 历史要事: lsys.md
+  - 会议记录: thing/meeting.md
+  - 历史要事: thing/lsys.md
   - 群机构:
-    - 茕羊纪律委员会: jljcwyh.md
-    - 柠檬都护府: lemonhufu.md
-  - 一些名词: name.md
+    - 茕羊纪律委员会: thing/jljcwyh.md
+    - 柠檬都护府: thing/lemonhufu.md
+  - 一些名词:
+      - 人物志: name/name.md
+      - 物品集: name/name_thing.md
+  - 开发者必读: todeveloper.md
 
 theme:
   name: material
