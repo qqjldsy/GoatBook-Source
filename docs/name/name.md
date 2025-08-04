@@ -53,7 +53,9 @@ mdn：本站开发者，平平无奇的审稿人
 曾任两次总统    
 开国元勋  
 出狱了，但账号没有  
-
+## 卡尔·李卜克内西 {#mickymomse)
+最没有存在感的管理员之一  
+谦逊（吗）的调停者
 
 <div id="giscus"></div>
 <script src="https://giscus.app/client.js"
