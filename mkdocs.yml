@@ -2,8 +2,10 @@ site_name: 茕山羊维基
 nav:
   - 主页: index.md
   - 会议记录: meeting.md
-  - 一些名词: name.md
   - 历史要事: lsys.md
+  - 群机构:
+    - 茕羊纪律委员会: jljcwyh.md
+  - 一些名词: name.md
 
 theme:
   name: material
@@ -21,4 +23,6 @@ markdown_extensions:
   - pymdownx.superfences
   - attr_list
   - admonition
+
+
 
