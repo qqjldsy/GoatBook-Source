@@ -23,7 +23,8 @@ mdn：本站开发者，平平无奇的审稿人
  
 ## 绿宝石 {#emerald}
 全名：Emerald_绿宝石  
-原名：李旺源  
+原名：李旺源
+![](https://img.wsmdn.dpdns.org/img/emer.jpeg){ width=10% } ![](https://img.wsmdn.dpdns.org/img/emer_cat.jpg){ width=10% } ![](https://img.wsmdn.dpdns.org/img/emer_leg.jpg){ width=10% } ![](https://img.wsmdn.dpdns.org/img/emer_half_body.jpeg){ width=10% } 
 吉林省长春市农安县生人  
 生日5.30  
 曾任两次总统    
