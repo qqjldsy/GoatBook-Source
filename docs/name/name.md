@@ -6,6 +6,7 @@
 ![](https://img.wsmdn.dpdns.org/img/goat.jpg){ width=30% }  
 茕山羊全称**茕茕孑立的山羊**  
 原名**刘峪企**  
+![刘大头](https://img.wsmdn.dpdns.org/img/real_goat.png){ width=10% }  
 住址:吉林省四平市梨树县  
 伟大的群主
 国父、开国元勋  
