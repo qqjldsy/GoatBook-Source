@@ -24,4 +24,21 @@
 2. 本群实施特殊行政制度，如需商讨有关本都护府之事宜，需在茕羊民国的会议上进行<br>  
 3. 本群群员名额限定11人<br>  
 4. 本群群门永久关闭，不得开放<br>  
-5. 1~5条不得更改<br>   
+5. 1~5条不得更改<br>
+
+<div id="giscus"></div>
+<script src="https://giscus.app/client.js"
+        data-repo="nomdn/GoatBook-Source"
+        data-repo-id="R_kgDOPXYjCw"
+        data-category="General"
+        data-category-id="DIC_kwDOPXYjC84Ctwim"
+        data-mapping="title"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        async>
+</script>
