@@ -3,7 +3,7 @@
 ## 马步芳叛乱
 
 2025年5月9日下午，[**茕茕孑立的山羊**](https://goatwiki.netlify.app/name/?_refluxos=a10#_4)因未知原因   
-被封(目前史学界大多认为是因为聊天内容涉及政治而   
+被封(目前史学界大多认为是因为聊天内容涉及政治而    
 被封)，原茕羊民国大臣**马步芳**趁机叛乱，   
 **茕二世**仓促继位， 随即下发兵令， 出兵围剿马步芳，   
 在**帝都精灵、[绿宝石](https://goatwiki.netlify.app/name/?_refluxos=a10#_7)、[维多利亚](https://goatwiki.netlify.app/name/?_refluxos=a10#_8)**等人的合力围剿下，  
