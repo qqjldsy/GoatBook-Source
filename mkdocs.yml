@@ -5,6 +5,7 @@ nav:
   - 历史要事: lsys.md
   - 群机构:
     - 茕羊纪律委员会: jljcwyh.md
+    - 柠檬都护府: lemonhufu.md
   - 一些名词: name.md
 
 theme:
@@ -23,6 +24,7 @@ markdown_extensions:
   - pymdownx.superfences
   - attr_list
   - admonition
+
 
 
 
