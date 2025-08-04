@@ -53,6 +53,21 @@ mdn：本站开发者，平平无奇的审稿人
 出狱了，但账号没有  
 
 
-
+<div id="giscus"></div>
+<script src="https://giscus.app/client.js"
+        data-repo="nomdn/GoatBook-Source"
+        data-repo-id="R_kgDOPXYjCw"
+        data-category="General"
+        data-category-id="DIC_kwDOPXYjC84Ctwim"
+        data-mapping="title"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        async>
+</script>
 
 

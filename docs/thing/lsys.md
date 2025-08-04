@@ -35,3 +35,20 @@
 - `3月29日`，茕羊民国伟大领袖茕茕孑立的山羊@郁郁寡歡的山羊 出兵平定苦力怕民国
 ## 2025年8月4日
 - mumu心怀不轨，企图叛乱
+
+<div id="giscus"></div>
+<script src="https://giscus.app/client.js"
+        data-repo="nomdn/GoatBook-Source"
+        data-repo-id="R_kgDOPXYjCw"
+        data-category="General"
+        data-category-id="DIC_kwDOPXYjC84Ctwim"
+        data-mapping="title"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        async>
+</script>

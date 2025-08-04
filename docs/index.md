@@ -12,5 +12,21 @@
 你也可以自学[Markdown语法](https://markdown.com.cn),这样[我](./name/name.md#me)会**轻松一些**<br>
 如果你牛逼的要死，可以直接fork我的gh仓库并推送更改    
 如果你不会写东西，**看就行了**<br>
-    
 
+
+<div id="giscus"></div>
+<script src="https://giscus.app/client.js"
+        data-repo="nomdn/GoatBook-Source"
+        data-repo-id="R_kgDOPXYjCw"
+        data-category="General"
+        data-category-id="DIC_kwDOPXYjC84Ctwim"
+        data-mapping="title"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        async>
+</script>

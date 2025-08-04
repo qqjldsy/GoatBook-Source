@@ -13,3 +13,21 @@
 主要职责：记载史事<br>
 主史官：**维多利亚**<br>
 历史：茕羊建国初期，维多利亚担任史官一职。后经山羊帝提议复兴，绿宝石帝宣布重授史官一职<br>
+
+
+<div id="giscus"></div>
+<script src="https://giscus.app/client.js"
+        data-repo="nomdn/GoatBook-Source"
+        data-repo-id="R_kgDOPXYjCw"
+        data-category="General"
+        data-category-id="DIC_kwDOPXYjC84Ctwim"
+        data-mapping="title"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        async>
+</script>
