@@ -26,6 +26,9 @@
 | 马步芳（非真实） | #creeper |
 | 议会       | #meeting |
 
+##注意事项
+202584 18:30 [我](name/name.md#mdn)闲的没事干，加了个评论功能，注意避开每个文件末尾的html标签
+
 <div id="giscus"></div>
 <script src="https://giscus.app/client.js"
         data-repo="nomdn/GoatBook-Source"
