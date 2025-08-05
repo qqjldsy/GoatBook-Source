@@ -26,6 +26,8 @@
 4. 本群群门永久关闭，不得开放<br>  
 5. 1~5条不得更改<br>
 
+*虚构内容*
+
 <div id="giscus"></div>
 <script src="https://giscus.app/client.js"
         data-repo="nomdn/GoatBook-Source"
