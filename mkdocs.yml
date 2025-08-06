@@ -23,7 +23,10 @@ plugins:
   - search:
       separator: '[\s\-\.]+'  # 更好地切分中文和符号
       lang: ['zh']            # 明确指定中文语言
-   # 提前构建索引，加快加载速度
+  - git-committers:
+      repository: nomdn/GoatBook-Source
+      branch: main
+      enable: true
 
 markdown_extensions:
   - pymdownx.tabbed
@@ -32,6 +35,7 @@ markdown_extensions:
   - pymdownx.superfences
   - attr_list
   - admonition
+
 
 
 
