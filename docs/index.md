@@ -18,13 +18,15 @@
   OML2D.loadOml2d({
     models: [
 {
+// Copyright (c) 2022 oh-my-live2d and hacxy
+// SPDX-License-Identifier: MIT
   "path": "./zhenxun/真寻2_GG/真寻2_GG.model3.json",
-  "scale": 0.08,
+  "scale": 0.06,
   "volume": 0,
-  "position": [-100, 20],
+  "position": [-70, 120],
   "stageStyle": {
     "height": 370,
-    "width": 400
+    "width": 340
   }
 }
     ]
