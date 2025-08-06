@@ -21,12 +21,12 @@
 // Copyright (c) 2022 oh-my-live2d and hacxy
 // SPDX-License-Identifier: MIT
   "path": "./zhenxun/真寻2_GG/真寻2_GG.model3.json",
-  "scale": 0.06,
+  "scale": 0.04,
   "volume": 0,
-  "position": [-70, 120],
+  "position": [-50, 200],
   "stageStyle": {
     "height": 370,
-    "width": 340
+    "width": 200
   }
 }
     ]
