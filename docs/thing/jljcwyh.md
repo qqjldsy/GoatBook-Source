@@ -14,6 +14,8 @@
 主史官：**维多利亚**<br>
 历史：茕羊建国初期，维多利亚担任史官一职。后经山羊帝提议复兴，绿宝石帝宣布重授史官一职<br>
 
+*虚构内容*
+
 
 <div id="giscus"></div>
 <script src="https://giscus.app/client.js"
