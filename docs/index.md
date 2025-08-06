@@ -13,6 +13,37 @@
 如果你牛逼的要死，可以直接fork我的gh仓库并推送更改    
 如果你不会写东西，**看就行了**<br>
 
+<script src="https://unpkg.com/oh-my-live2d@latest"></script>
+<script>
+// Copyright (c) 2022 oh-my-live2d and hacxy
+// SPDX-License-Identifier: MIT
+  OML2D.loadOml2d({
+    models: [
+{
+
+  "path": "./l2d_model/zhenxun/真寻2_GG/真寻2_GG.model3.json",
+  "scale": 0.04,
+  "volume": 0,
+  "position": [-50, 200],
+  "stageStyle": {
+    "height": 370,
+    "width": 200
+  }
+},
+{
+
+  "path": "./l2d_model/Mahiro_GG/Mahiro_V1.model3.json",
+  "scale": 0.06,
+  "volume": 0,
+  "position": [-50, 30],
+  "stageStyle": {
+    "height": 290,
+    "width": 290
+  }
+}
+    ]
+  });
+</script>
 
 <div id="giscus"></div>
 <script src="https://giscus.app/client.js"
