@@ -13,6 +13,23 @@
 如果你牛逼的要死，可以直接fork我的gh仓库并推送更改    
 如果你不会写东西，**看就行了**<br>
 
+<script src="https://unpkg.com/oh-my-live2d@latest"></script>
+<script>
+  OML2D.loadOml2d({
+    models: [
+{
+  "path": "./zhenxun/真寻2_GG/真寻2_GG.model3.json",
+  "scale": 0.08,
+  "volume": 0,
+  "position": [-100, 20],
+  "stageStyle": {
+    "height": 370,
+    "width": 400
+  }
+}
+    ]
+  });
+</script>
 
 <div id="giscus"></div>
 <script src="https://giscus.app/client.js"
