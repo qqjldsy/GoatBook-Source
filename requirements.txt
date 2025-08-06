@@ -3,3 +3,5 @@ mkdocs-get-deps~=0.2.0
 Markdown~=3.8.2
 mkdocs-material~=9.6.16
 pymdown-extensions~=10.16.1
+mkdocs-git-committers-plugin-2~=2.5.0
+
