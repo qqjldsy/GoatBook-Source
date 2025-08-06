@@ -72,7 +72,7 @@ mdn：本站开发者，平平无奇的审稿人
 ## 红树原木 {#redwood}
 ![红大衰比](https://img.wsmdn.dpdns.org/img/红树原木.jpg){ width=30% }   
 茕羊民国传奇机长、曾被授予*萨利·里德昂航空安全奖*  
-暴露狂、喜欢**双性人**  
+暴露狂、喜欢**双性人**   
 
 
 <div id="giscus"></div>
