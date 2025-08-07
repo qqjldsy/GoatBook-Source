@@ -25,6 +25,11 @@
 | 蜃涟       | #qsj     |
 | 马步芳（非真实） | #creeper |
 | 议会       | #meeting |
+| mumu       | #mumu |
+| 醉鸡王       | #linbiao |
+| 卡尔·李卜克内西   | #mickymomse |
+| 红树原木    | #redwood  |
+| 蜃涟      | #qsj |
 
 ##注意事项
 202584 18:30 [我](name/name.md#mdn)闲的没事干，加了个评论功能，注意避开每个文件末尾的html标签
