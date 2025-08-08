@@ -76,6 +76,8 @@
 马步芳回复：  
 >@全体成员 本军校归附茕羊民国，伟大的茕羊民国晚睡，晚睡，伟大领袖刘峪企晚睡，晚睡，晚睡  
 
+有一位群成员伪装[茕羊](../../name/name.md#goat)，被识破：  
+>由于@茕茕孑立的山羊 无法管理军校事物，所以下一任军校总理由@茕茕孑立的山羊 接任
 <div id="giscus"></div>
 <script src="https://giscus.app/client.js"
         data-repo="nomdn/GoatBook-Source"
