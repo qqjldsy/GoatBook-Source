@@ -10,9 +10,9 @@
 * 全称茕羊人民共和国
 * 于2023年10月22日建立
 * 坐落于QQ大陆之上  
-* 群号：313458052（有可能迁徙）
+* 群号：313458052（有可能迁徙）  
 * 国旗
-
+  ![](https://img.wsmdn.dpdns.org/img/茕羊民国国旗.jpg){ width=70% }  
 
 
 ## 我到底要几把干什么
@@ -22,7 +22,7 @@
 你也可以自学[Markdown语法](https://markdown.com.cn),这样[我](./name/name.md#me)会**轻松一些**<br>
 如果你牛逼的要死，可以直接fork我的gh仓库并推送更改    
 如果你不会写东西，**看就行了**<br>
-
+!!! 本网站所有内容都为虚构
 <script src="https://unpkg.com/oh-my-live2d@latest"></script>
 <script>
 // Copyright (c) 2022 oh-my-live2d and hacxy
@@ -105,4 +105,5 @@ tips: {
         crossorigin="anonymous"
         async>
 </script>
+
 
