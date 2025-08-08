@@ -39,6 +39,8 @@
 - `https://unpkg.com/oh-my-live2d@latest` (来自 oh-my-live2d https://github.com/oh-my-live2d/oh-my-live2d?tab=MIT-1-ov-file)  
   - 许可证: MIT  
   - 原始许可证文本:  
+
+
 >MIT License
 
 >Copyright (c) 2022 oh-my-live2d and hacxy
