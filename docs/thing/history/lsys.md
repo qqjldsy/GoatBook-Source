@@ -64,6 +64,13 @@
 （新羊社8月8日电，主编亲笔）  
 >                       -新羊社
 
+[mumu](../../name/name.md#mumu)《讨马檄文》:
+>马步芳残暴不仁，罪恶滔天！
+> 盘踞西北，欺压百姓，横征暴敛，致使哀鸿遍野。
+> 其勾结外敌，背叛民族，助纣为虐，卖国求荣。今兴义师讨伐，以慰苍生，以安社稷！
+
+## 马步芳归顺
+`2025年8月8日` 在茕羊政府的压力下，德芙改名德芙军校，并归顺茕羊民国
 <div id="giscus"></div>
 <script src="https://giscus.app/client.js"
         data-repo="nomdn/GoatBook-Source"
