@@ -18,8 +18,17 @@
 // Copyright (c) 2022 oh-my-live2d and hacxy
 // SPDX-Licese-Identifier: MIT
   OML2D.loadOml2d({
+motionPreloadStrategy: "ALL",
 tips: {
-    // 在这里配置
+    copyTips:{message:["本站使用GPL3.0开源，复制请标明出处","复制了啥"]},
+    idleTips: {
+            duration: 5000, // 提示框持续时间，默认是5000ms
+            interval: 10000, // 空闲状态循环播放消息的间隔时间，默认是10000ms
+            priority: 2, // 优先级，默认值是2
+            wordTheDay: true, // 开启每日一言功能，默认是false
+            // 如果需要自定义每日一言的格式，可以提供一个函数
+            // wordTheDay: (wordTheDayData) => `${wordTheDayData.hitokoto} by.${wordTheDayData.from}`
+        }
   },
     models: [
 {
