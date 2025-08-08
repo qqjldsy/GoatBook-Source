@@ -27,7 +27,7 @@ jobs:
           fi
 
       - name: Build MkDocs Site
-        run: mkdocs build
+        run: python =m mkdocs build
       - name: Deploy to netlify
         uses: netlify/actions/cli@master
         with:
