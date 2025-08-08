@@ -18,7 +18,21 @@
 // Copyright (c) 2022 oh-my-live2d and hacxy
 // SPDX-License-Identifier: MIT
   OML2D.loadOml2d({
+tips: {
+    // 在这里配置
+  },
     models: [
+{
+
+  "path": "./l2d_model/mihari/mihari.model3.json",
+  "scale": 0.4,
+  "volume": 0,
+  "position": [-80, 80],
+  "stageStyle": {
+    "height": 290,
+    "width": 290
+  }
+},
 {
 
   "path": "./l2d_model/zhenxun/真寻2_GG/真寻2_GG.model3.json",
