@@ -16,7 +16,7 @@
 <script src="https://unpkg.com/oh-my-live2d@latest"></script>
 <script>
 // Copyright (c) 2022 oh-my-live2d and hacxy
-// SPDX-License-Identifier: MIT
+// SPDX-Licese-Identifier: MIT
   OML2D.loadOml2d({
 tips: {
     // 在这里配置
