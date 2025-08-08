@@ -29,7 +29,7 @@ jobs:
       - name: Build MkDocs Site
         run: python -m mkdocs build
       - name: Deploy to netlify
-        uses: netlify/actions/cli@master
+        uses: netlify/actions/cli@v1
         with:
           args: deploy --dir=site --prod
         env:
