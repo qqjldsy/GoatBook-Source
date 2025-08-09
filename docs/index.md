@@ -97,10 +97,11 @@ function updateWaifuStyle() {
       break;
 
     case 1: // 模型 1
-      waifu.style.bottom = '100px';
-      live2d.style.width = '400px';
-      live2d.style.height = '400px';
-      toggle.style.marginLeft = '-80px';
+      waifu.style.bottom = '0px';
+      live2d.style.width = '200px';
+      live2d.style.height = '
+00px';
+      toggle.style.marginLeft = '-50px';
       toggle.classList.add('waifu-toggle-active');
       break;
 
@@ -108,7 +109,7 @@ function updateWaifuStyle() {
       waifu.style.bottom = '0px';
       live2d.style.width = '350px';
       live2d.style.height = '350px';
-      toggle.style.marginLeft = '-60px';
+      toggle.style.marginLeft = '-80px';
       break;
 
     default: // 默认样式

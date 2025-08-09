@@ -63,6 +63,13 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
+- [live2d-widget](https://github.com/stevenjoezhang/live2d-widget?tab=GPL-3.0-1-ov-file)
+  - 许可证GPL 3.0
+  - 本项目基于 GNU General Public License v3.0 许可证发布，原始项目也使用 GPL-3.0。
+
+  - 修改内容：
+    - 添加了多模型配置设置
+  - 原始许可证文本：[点我查看](https://github.com/stevenjoezhang/live2d-widget/blob/master/LICENSE)
 <div id="giscus"></div>
 <script src="https://giscus.app/client.js"
         data-repo="nomdn/GoatBook-Source"
