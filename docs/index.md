@@ -99,8 +99,7 @@ function updateWaifuStyle() {
     case 1: // 模型 1
       waifu.style.bottom = '0px';
       live2d.style.width = '200px';
-      live2d.style.height = '
-00px';
+      live2d.style.height = '200px';
       toggle.style.marginLeft = '-50px';
       toggle.classList.add('waifu-toggle-active');
       break;
