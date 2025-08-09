@@ -18,7 +18,21 @@
 202582号议会通过了提案：将议会时间调到**每周六19:00**开始  
 议会有着全群第二高的决策权力 
 
+ <script>
+// 页面加载完成后开始定期执行
+window.addEventListener('load', () => {
+  console.log("Live2D waifu script loaded.");
+  
+  // 初始执行一次
+  updateWaifuStyle();
 
+  // 每隔 1 秒检查一次 modelId 是否发生变化（例如其他脚本修改了 localStorage）
+  setInterval(() => {
+    console.log("running");
+    updateWaifuStyle();
+  }, 1000);
+});
+  </script>
 <div id="giscus"></div>
 <script src="https://giscus.app/client.js"
         data-repo="nomdn/GoatBook-Source"

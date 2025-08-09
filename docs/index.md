@@ -26,50 +26,6 @@
 <script src="./js/dist/autoload.js"></script>
 
  <script>
-function updateWaifuStyle() {
-  const modelId = parseInt(localStorage.getItem('modelId')) || 0;
-
-  const waifu = document.getElementById('waifu');
-  const live2d = document.getElementById('live2d');
-  const toggle = document.getElementById('waifu-toggle');
-
-  if (!waifu || !live2d || !toggle) return;
-
-  // 清除之前的 toggle 样式
-  toggle.classList.remove('waifu-toggle-active');
-
-  switch (modelId) {
-    case 0: // 模型 0
-      waifu.style.bottom = '-220px';
-      live2d.style.width = '400px';
-      live2d.style.height = '400px';
-      toggle.style.marginLeft = '-50px';
-      break;
-
-    case 1: // 模型 1
-      waifu.style.bottom = '0px';
-      live2d.style.width = '200px';
-      live2d.style.height = '200px';
-      toggle.style.marginLeft = '-50px';
-      toggle.classList.add('waifu-toggle-active');
-      break;
-
-    case 2: // 模型 2
-      waifu.style.bottom = '0px';
-      live2d.style.width = '350px';
-      live2d.style.height = '350px';
-      toggle.style.marginLeft = '-80px';
-      break;
-
-    default: // 默认样式
-      waifu.style.bottom = '-500px';
-      live2d.style.width = '300px';
-      live2d.style.height = '300px';
-      toggle.style.marginLeft = '-100px';
-      break;
-  }
-}
-
 // 页面加载完成后开始定期执行
 window.addEventListener('load', () => {
   console.log("Live2D waifu script loaded.");

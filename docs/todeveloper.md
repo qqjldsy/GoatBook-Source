@@ -70,6 +70,22 @@ SOFTWARE.
   - 修改内容：
     - 添加了多模型配置设置
   - 原始许可证文本：[点我查看](https://github.com/stevenjoezhang/live2d-widget/blob/master/LICENSE)
+
+ <script>
+// 页面加载完成后开始定期执行
+window.addEventListener('load', () => {
+  console.log("Live2D waifu script loaded.");
+  
+  // 初始执行一次
+  updateWaifuStyle();
+
+  // 每隔 1 秒检查一次 modelId 是否发生变化（例如其他脚本修改了 localStorage）
+  setInterval(() => {
+    console.log("running");
+    updateWaifuStyle();
+  }, 1000);
+});
+  </script>
 <div id="giscus"></div>
 <script src="https://giscus.app/client.js"
         data-repo="nomdn/GoatBook-Source"

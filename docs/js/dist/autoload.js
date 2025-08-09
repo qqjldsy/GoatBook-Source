@@ -32,53 +32,48 @@ function loadExternalResource(url, type) {
   });
 }
 //封装配置模型函数
-function applyModelStyle() {
+function updateWaifuStyle() {
+  const modelId = parseInt(localStorage.getItem('modelId')) || 0;
 
-    const modelId = parseInt(localStorage.getItem('modelId')) || 0;
-    console.log("ID获取流程结束")
-    // 等待页面加载完成
-    window.addEventListener('load', () => {
-      const waifu = document.getElementById('waifu');
-      const live2d = document.getElementById('live2d');
-      const toggle = document.getElementById('waifu-toggle');
-      console.log("加载")
-      if (!waifu || !live2d || !toggle) return;
+  const waifu = document.getElementById('waifu');
+  const live2d = document.getElementById('live2d');
+  const toggle = document.getElementById('waifu-toggle');
 
-      // 根据模型 ID 设置样式
-      switch (modelId) {
-        case 0: // 模型 0
-          waifu.style.bottom = '-220px';
-          live2d.style.width = '400px';
-          live2d.style.height = '400px';
-          toggle.style.marginLeft = '-50px';
-          break;
+  if (!waifu || !live2d || !toggle) return;
 
-        case 1: // 模型 1
-          waifu.style.bottom = '100px';
-          live2d.style.width = '100px';
-          live2d.style.height = '100px';
-          toggle.style.marginLeft = '-80px';
-          toggle.classList.add('waifu-toggle-active');
-          break;
+  // 清除之前的 toggle 样式
+  toggle.classList.remove('waifu-toggle-active');
 
-        case 2: // 模型 2
-          waifu.style.bottom = '0px';
-          live2d.style.width = '350px';
-          live2d.style.height = '350px';
-          toggle.style.marginLeft = '-60px';
-          break;
+  switch (modelId) {
+    case 0: // 模型 0
+      waifu.style.bottom = '-220px';
+      live2d.style.width = '400px';
+      live2d.style.height = '400px';
+      toggle.style.marginLeft = '-50px';
+      break;
 
-        default: // 默认样式
-          waifu.style.bottom = '-500px';
-          live2d.style.width = '300px';
-          live2d.style.height = '300px';
-          toggle.style.marginLeft = '-100px';
-          toggle.classList.remove('waifu-toggle-active');
-          break;
-      }
+    case 1: // 模型 1
+      waifu.style.bottom = '0px';
+      live2d.style.width = '200px';
+      live2d.style.height = '200px';
+      toggle.style.marginLeft = '-50px';
+      toggle.classList.add('waifu-toggle-active');
+      break;
 
+    case 2: // 模型 2
+      waifu.style.bottom = '0px';
+      live2d.style.width = '350px';
+      live2d.style.height = '350px';
+      toggle.style.marginLeft = '-80px';
+      break;
 
-    });
+    default: // 默认样式
+      waifu.style.bottom = '-500px';
+      live2d.style.width = '300px';
+      live2d.style.height = '300px';
+      toggle.style.marginLeft = '-100px';
+      break;
+  }
 }
 
 (async () => {
@@ -89,7 +84,7 @@ function applyModelStyle() {
   // Avoid cross-origin issues with image resources
   // 避免图片资源跨域问题
   const OriginalImage = window.Image;
-  applyModelStyle()
+  updateWaifuStyle()
 
   window.Image = function(...args) {
     const img = new OriginalImage(...args);

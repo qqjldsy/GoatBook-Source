@@ -31,9 +31,51 @@
 - 会议召开时间改为每周六19:00  
 - 关闭入群渠道，群员可以拉人
 
+## 第七次议会 {202589}
+**日期**: 2025年8月9日  
+
+1. **追授坠机王报社主编。**
+   - 因多人弃权提案未通过
+
+2. **关于墨隐都护府的建立。**
+   - 全票反对不通过
+
+3. **对于管理员选举。**
+   - 初定为每月月末，后修改为最近的节假日。仅一票反对，提案通过
+
+4. **移除长期不发言成员（小号除外）。**
+   - 提案通过
+
+5. **解散所谓mcd。**
+   - 因根本没有实质性内容，提案直接（？）驳回吧（？）
+
+6. **将看板娘加入wiki每一页。**
+   - 提案通过
+   - 颁布宣告：以下页面加入看板娘
+     - 会议记录
+     - 野史
+     - 人物志
+     - 物品集
+     - 开发者必读
+     - 群机构
 *虚构内容*
 
 
+ <script>
+// 页面加载完成后开始定期执行
+window.addEventListener('load', () => {
+  console.log("Live2D waifu script loaded.");
+  
+  // 初始执行一次
+  updateWaifuStyle();
+
+  // 每隔 1 秒检查一次 modelId 是否发生变化（例如其他脚本修改了 localStorage）
+  setInterval(() => {
+    console.log("running");
+    updateWaifuStyle();
+  }, 1000);
+});
+  </script>
 <div id="giscus"></div>
 <script src="https://giscus.app/client.js"
         data-repo="nomdn/GoatBook-Source"
