@@ -118,7 +118,7 @@
 >---
 >**茕羊设报道员——AF◢◤**
 
-
+<script src="../../js/dist/autoload.js"></script>
  <script>
 // 页面加载完成后开始定期执行
 window.addEventListener('load', () => {

@@ -71,6 +71,7 @@ SOFTWARE.
     - 添加了多模型配置设置
   - 原始许可证文本：[点我查看](https://github.com/stevenjoezhang/live2d-widget/blob/master/LICENSE)
 
+<script src="./js/dist/autoload.js"></script>
  <script>
 // 页面加载完成后开始定期执行
 window.addEventListener('load', () => {

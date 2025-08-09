@@ -18,6 +18,7 @@
 202582号议会通过了提案：将议会时间调到**每周六19:00**开始  
 议会有着全群第二高的决策权力 
 
+<script src="../js/dist/autoload.js"></script>
  <script>
 // 页面加载完成后开始定期执行
 window.addEventListener('load', () => {
