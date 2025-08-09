@@ -257,11 +257,11 @@
   },
   "models": [{
     "name": "お兄ちゃんはおしまい！/绪山美波里",
-    "paths": ["https://cdn.jsdelivr.net/gh/nomdn/nomdn.github.io@main/l2d_model/mihari/mihari.model3.json"],
+    "paths": ["./l2d_model/mihari/mihari.model3.json"],
     "message": "来自 お兄ちゃんはおしまい！的 绪山美波里 "
   }, {
     "name": "お兄ちゃんはおしまい！/绪山真寻",
-    "paths": ["https://cdn.jsdelivr.net/gh/nomdn/nomdn.github.io@main/l2d_model/Mahiro_GG/Mahiro_V1.model3.json",
+    "paths": ["./l2d_model/Mahiro_GG/Mahiro_V1.model3.json",
     "./l2d_model/zhenxun/真寻2_GG/真寻2_GG.model3.json"],
     "message": "来自 お兄ちゃんはおしまい！的 绪山真寻 酱~"
   }]
