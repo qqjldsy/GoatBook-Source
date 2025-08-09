@@ -262,7 +262,7 @@
   }, {
     "name": "お兄ちゃんはおしまい！/绪山真寻",
     "paths": ["https://cdn.jsdelivr.net/gh/nomdn/nomdn.github.io@main/l2d_model/Mahiro_GG/Mahiro_V1.model3.json",
-    "https://cdn.jsdelivr.net/gh/nomdn/nomdn.github.io@main/l2d_model/zhenxun/%E7%9C%9F%E5%AF%BB2_GG/%E7%9C%9F%E5%AF%BB2_GG.model3.json"],
+    "./l2d_model/zhenxun/真寻2_GG/真寻2_GG.model3.json"],
     "message": "来自 お兄ちゃんはおしまい！的 绪山真寻 酱~"
   }]
 }
