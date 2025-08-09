@@ -13,7 +13,7 @@
 * 于**2023年10月22日**建立  
 * 坐落于**QQ大陆**之上  
 * 群号：*313458052*（有可能迁徙）  
-* [国旗](https://img.wsmdn.dpdns.org/img/茕羊民国国旗.jpg)  
+* [Vampire_mumu设计的旗帜](https://img.wsmdn.dpdns.org/img/茕羊民国国旗.jpg)  
 
 
 ## 我到底要几把干什么
@@ -57,6 +57,7 @@ window.addEventListener('load', () => {
         crossorigin="anonymous"
         async>
 </script>
+
 
 
 
