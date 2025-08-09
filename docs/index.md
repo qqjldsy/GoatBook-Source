@@ -23,7 +23,7 @@
 如果你牛逼的要死，可以直接fork我的gh仓库并推送更改    
 如果你不会写东西，**看就行了**<br>
 
-<script src="https://unpkg.com/oh-my-live2d@latest"></script>
+<script src="./js/dist/autoload.js"></script>
 <script>
 // Copyright (c) 2022 oh-my-live2d and hacxy
 // SPDX-Licese-Identifier: MIT
@@ -75,6 +75,65 @@ tips: {
     ]
   });
 </script>
+ <script>
+function updateWaifuStyle() {
+  const modelId = parseInt(localStorage.getItem('modelId')) || 0;
+
+  const waifu = document.getElementById('waifu');
+  const live2d = document.getElementById('live2d');
+  const toggle = document.getElementById('waifu-toggle');
+
+  if (!waifu || !live2d || !toggle) return;
+
+  // 清除之前的 toggle 样式
+  toggle.classList.remove('waifu-toggle-active');
+
+  switch (modelId) {
+    case 0: // 模型 0
+      waifu.style.bottom = '-220px';
+      live2d.style.width = '400px';
+      live2d.style.height = '400px';
+      toggle.style.marginLeft = '-50px';
+      break;
+
+    case 1: // 模型 1
+      waifu.style.bottom = '100px';
+      live2d.style.width = '400px';
+      live2d.style.height = '400px';
+      toggle.style.marginLeft = '-80px';
+      toggle.classList.add('waifu-toggle-active');
+      break;
+
+    case 2: // 模型 2
+      waifu.style.bottom = '0px';
+      live2d.style.width = '350px';
+      live2d.style.height = '350px';
+      toggle.style.marginLeft = '-60px';
+      break;
+
+    default: // 默认样式
+      waifu.style.bottom = '-500px';
+      live2d.style.width = '300px';
+      live2d.style.height = '300px';
+      toggle.style.marginLeft = '-100px';
+      break;
+  }
+}
+
+// 页面加载完成后开始定期执行
+window.addEventListener('load', () => {
+  console.log("Live2D waifu script loaded.");
+  
+  // 初始执行一次
+  updateWaifuStyle();
+
+  // 每隔 1 秒检查一次 modelId 是否发生变化（例如其他脚本修改了 localStorage）
+  setInterval(() => {
+    console.log("running");
+    updateWaifuStyle();
+  }, 1000);
+});
+  </script>
 
 <div id="giscus"></div>
 <script src="https://giscus.app/client.js"
