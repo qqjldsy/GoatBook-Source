@@ -24,57 +24,7 @@
 如果你不会写东西，**看就行了**<br>
 
 <script src="./js/dist/autoload.js"></script>
-<script>
-// Copyright (c) 2022 oh-my-live2d and hacxy
-// SPDX-Licese-Identifier: MIT
-  OML2D.loadOml2d({
-motionPreloadStrategy: "ALL",
-tips: {
-    copyTips:{message:["本站使用GPL3.0开源，复制请标明出处","复制了啥"]},
-    idleTips: {
-            duration: 5000, // 提示框持续时间，默认是5000ms
-            interval: 50000, // 空闲状态循环播放消息的间隔时间，默认是10000ms
-            priority: 2, // 优先级，默认值是2
-            wordTheDay: true, // 开启每日一言功能，默认是false
-        }
-  },
-    models: [
-{
 
-  "path": "./l2d_model/mihari/mihari.model3.json",
-  "scale": 0.4,
-  "volume": 0,
-  "position": [-80, 80],
-  "stageStyle": {
-    "height": 290,
-    "width": 290
-  }
-},
-{
-
-  "path": ["./l2d_model/zhenxun/真寻2_GG/真寻2_GG.model3.json","./l2d_model/Mahiro_GG/Mahiro_V1.model3.json"],
-  "scale": 0.04,
-  "volume": 0,
-  "position": [-50, 120],
-  "stageStyle": {
-    "height": 290,
-    "width": 290
-  }
-},
-{
-
-  "path": "./l2d_model/model/兔兔-阿米娅.model3.json",
-  "scale": 0.1,
-  "volume": 0,
-  "position": [0, 70],
-  "stageStyle": {
-    "height": 290,
-    "width": 290
-  }
-}
-    ]
-  });
-</script>
  <script>
 function updateWaifuStyle() {
   const modelId = parseInt(localStorage.getItem('modelId')) || 0;
