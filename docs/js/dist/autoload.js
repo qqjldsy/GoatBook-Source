@@ -47,7 +47,7 @@ function updateWaifuStyle() {
   switch (modelId) {
     case 0: // 模型 0
       waifu.style.bottom = '-220px';
-      live2d.style.width = '400px';
+      live2d.style.width = '200px';
       live2d.style.height = '400px';
       toggle.style.marginLeft = '-50px';
       break;
