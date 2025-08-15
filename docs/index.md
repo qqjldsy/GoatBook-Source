@@ -23,7 +23,6 @@
 如果你不会写东西，**看就行了**<br>
 
 <script src="./js/dist/autoload.js"></script>
-
  <script>
 // 页面加载完成后开始定期执行
 window.addEventListener('load', () => {
