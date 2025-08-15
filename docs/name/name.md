@@ -74,6 +74,9 @@ mdn：本站开发者，平平无奇的审稿人
 ![红大衰比](https://img.wsmdn.dpdns.org/img/红树原木.jpg){ width=30% }   
 茕羊民国传奇机长、曾被授予*萨利·里德昂航空安全奖*  
 暴露狂、喜欢**双性人**   
+## zbldyyds {#zbldyyds}
+2025/8/15加入茕羊国际，~~爱好赤石~~（群内唯一担任）<br>
+因为发Bad Apple!被赐国姓
 
 <script src="/js/dist/autoload.js"></script>
  <script>
