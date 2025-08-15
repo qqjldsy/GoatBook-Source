@@ -1,4 +1,6 @@
 site_name: 茕山羊维基
+repo_url: https://github.com/nomdn/GoatBook-Source
+repo_name: nomdn/GoatBook-Source
 nav:
   - 主页: index.md
   - 会议记录: thing/meeting.md
@@ -18,16 +20,15 @@ theme:
   name: material
   language : zh
   favicon: https://img.wsmdn.dpdns.org/img/goat.jpg
+  icon:
+    repo: fontawesome/brands/github
 
 plugins:
   - search:
       separator: '[\s\-\.]+'  # 更好地切分中文和符号
       lang: ['zh']
       # 明确指定中文语言
-  - git-committers:
-      repository: nomdn/GoatBook-Source
-      branch: main
-      token: !!python/object/apply:os.getenv ["MKDOCS_GIT_COMMITTERS_APIKEY"]
+
 
 markdown_extensions:
   - pymdownx.tabbed
