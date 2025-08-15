@@ -1,0 +1,80 @@
+# 茕羊民国会议记录
+
+## 第一次[议会](../name/name_thing.md#meeting) {202571}
+**日期**：2025年7月1日  
+- 确立议会制度  
+- **[Emerald绿宝石](../name/name.md#emerald)**任主席  
+- 撤销**帝都精灵**管理员职务  
+
+## 第二次议会 {2025712}
+**日期**：2025年7月12日  
+- 确定议会规则  
+- **Vampire_mumu**任宣传委员，获管理员职位  
+
+## 第三次（临时）议会 {2025714l}
+**日期**：2025年7月14日    
+- 恢复[CODV19](../name/name.md#codvi9)管理员职务  
+
+## 第四次议会 {2025719}
+**日期**：2025年7月19日  
+- 选定国旗  
+- 确定临时议会制度  
+- 确定提案规则  
+- **[Victoria Holmes](../name/name.md#wdly)**任史官  
+
+## 第五次（临时）议会 {2025721}
+**日期**：2025年7月21日   
+-    任管理员  
+
+## 第六次议会 {202582}
+**日期**：2025年8月2日  
+- 会议召开时间改为每周六19:00  
+- 关闭入群渠道，群员可以拉人 
+
+## 第七次议会 {202589}
+**日期**: 2025年8月9日  
+- 确定管理员选举制度  
+- 踢出了LV＝1的成员（小号除外） 
+- 将看板娘加入wiki每一页  
+   - *颁布宣告：以下页面加入看板娘*  
+     - *会议记录*  
+     - *野史*  
+     - *人物志*  
+     - *物品集*  
+     - *开发者必读*  
+     - *群机构*  
+*虚构内容*  
+
+
+ <script src="/js/dist/autoload.js"></script>
+ <script>
+// 页面加载完成后开始定期执行
+window.addEventListener('load', () => {
+  console.log("Live2D waifu script loaded.");
+  
+  // 初始执行一次
+  updateWaifuStyle();
+
+  // 每隔 1 秒检查一次 modelId 是否发生变化（例如其他脚本修改了 localStorage）
+  setInterval(() => {
+    console.log("running");
+    updateWaifuStyle();
+  }, 1000);
+});
+  </script>
+<div id="giscus"></div>
+<script src="https://giscus.app/client.js"
+        data-repo="nomdn/GoatBook-Source"
+        data-repo-id="R_kgDOPXYjCw"
+        data-category="General"
+        data-category-id="DIC_kwDOPXYjC84Ctwim"
+        data-mapping="title"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
+        crossorigin="anonymous"
+        async>
+</script>
