@@ -77,6 +77,12 @@ mdn：本站开发者，平平无奇的审稿人
 ## zbldyyds {#zbldyyds}
 2025/8/15加入茕羊国际，~~爱好赤石~~（群内唯一担任）<br>
 因为发Bad Apple!被赐国姓
+## 波波沙_菜鸟 {#bobo}
+山东省聊城市阳谷县人  
+年龄13岁  
+工书法，善吹洞箫  
+喜欢研究文学与音乐  
+曾两次罢官回家  
 
 <script src="/js/dist/autoload.js"></script>
  <script>
