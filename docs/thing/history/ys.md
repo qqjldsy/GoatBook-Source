@@ -122,8 +122,7 @@
 这究竟是**人性的扭曲**，还是**道德的沦丧**？  
 请收看本期《今日说法》  
 *(不好意思串台了)*  
-[自卫视频]  
-(https://m.bilibili.com/video/BV1GJ411x7h7)
+[自卫视频](https://m.bilibili.com/video/BV1GJ411x7h7)  
 
 <script src="/js/dist/autoload.js"></script>
  <script>
