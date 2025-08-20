@@ -44,10 +44,7 @@ plugins:
       separator: '[\s\-\.]+'  # 更好地切分中文和符号
       lang: ['zh']
       # 明确指定中文语言
-  - git-committers:
-      repository: nomdn/GoatBook-Source
-      branch: main
-      token: !!python/object/apply:os.getenv [ "MKDOCS_GIT_COMMITTERS_APIKEY" ]
+
 
 markdown_extensions:
   - pymdownx.tabbed
