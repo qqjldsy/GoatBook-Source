@@ -5,11 +5,12 @@
 编辑模式下花括号（大括号{}）中的内容就是锚点
 以下是在各个目录引用name文件的方法   
 
-| 目录        | 引用方案                                        |
-|-----------|---------------------------------------------|
-| docs(主目录) | `./name/name.md` 或 `./name/name_thing.md`   |
-| name      | `name.md` 或 `name_thing.md`                 |
-| thing     | `../name/name.md` 或 `../name/name_thing.md` |
+| 目录            | 引用方案                                              |
+|---------------|---------------------------------------------------|
+| docs(主目录)     | `./name/name.md` 或 `./name/name_thing.md`         |
+| name          | `name.md` 或 `name_thing.md`                       |
+| thing         | `../name/name.md` 或 `../name/name_thing.md`       |
+| thing/history | `../../name/name.md` 或 `../../name/name_thing.md` |
 
 以下是各个名词对应的锚点
 
