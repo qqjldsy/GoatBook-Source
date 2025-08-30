@@ -17,8 +17,8 @@ jobs:
       - name: Auto Merge
         uses: pascalgn/automerge-action@v0.16.4
         env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          MERGE_LABELS: ""
+          GITHUB_TOKEN: ${{ secrets.AUTOMERGE_TOKEN }}   # ✅ 使用 PAT
+          MERGE_LABELS: ""                              # ✅ 不需要标签
           MERGE_METHOD: "merge"
           MERGE_FORKS: "true"
           MERGE_RETRIES: "10"
