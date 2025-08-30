@@ -5,9 +5,9 @@ pull_request_rules:
       - base=main
 
       # 👇 所有 Netlify 检查必须成功（或 neutral）
-      - "check-success=Netlify: Header rules - goatwiki"
-      - "check-success=Netlify: Pages changed - goatwiki"
-      - "check-success=Netlify: Redirect rules - goatwiki"
+      - "check-success=Netlify\u003a Header rules - goatwiki"
+      - "check-success=Netlify\u003a Pages changed - goatwiki"
+      - "check-success=Netlify\u003a Redirect rules - goatwiki"
       - "check-success=netlify/goatwiki/deploy-preview"
 
       # 👇 至少一个批准的审查
