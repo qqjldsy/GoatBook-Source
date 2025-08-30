@@ -12,8 +12,8 @@ jobs:
       - name: Checkout Repository
         uses: actions/checkout@v4
 
-      - name: Enable Auto-Merge (Merge Commit)
+      - name: Enable Auto-Merge
         run: |
           gh pr merge ${{ github.event.pull_request.number }} --auto --merge
         env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.AUTOMERGE_TOKEN }}   # ✅ 使用 PAT，不是 GITHUB_TOKEN
