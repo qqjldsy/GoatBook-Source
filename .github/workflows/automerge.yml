@@ -1,27 +1,16 @@
-name: Auto Merge PR
+name: Enable Auto-Merge
 on:
   pull_request:
-    types: [opened, reopened, synchronize, ready_for_review, labeled, unlabeled]
-  pull_request_review:
-    types: [submitted]
-  check_suite:
-    types: [completed]
+    types: [opened, reopened, synchronize]
 
 jobs:
-  automerge:
+  enable-auto-merge:
     runs-on: ubuntu-latest
     permissions:
-      contents: write
       pull-requests: write
     steps:
-      - name: Auto Merge
-        uses: pascalgn/automerge-action@v0.16.4
+      - name: Enable auto-merge
+        run: |
+          gh pr merge ${{ github.event.pull_request.html_url }} --auto --enable-auto-merge
         env:
-          GITHUB_TOKEN: ${{ secrets.AUTOMERGE_TOKEN }}   # ✅ 使用 PAT
-          MERGE_LABELS: ""                              # ✅ 不需要标签
-          MERGE_METHOD: "merge"
-          MERGE_FORKS: "true"
-          MERGE_RETRIES: "10"
-          MERGE_RETRY_SLEEP: "3000"
-          UPDATE_METHOD: "merge"
-          MERGE_REQUIRED_APPROVALS: "0"
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
