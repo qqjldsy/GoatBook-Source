@@ -2,7 +2,7 @@ pull_request_rules:
   - name: 🚀 自动合并 PR
     conditions:
       - base=main
-      - "check-success=netlify/goatwiki/deploy-preview"
+      - "status-success=netlify/goatwiki/deploy-preview"
     actions:
       merge:
         method: merge
