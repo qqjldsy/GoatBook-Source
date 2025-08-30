@@ -1,0 +1,28 @@
+name: Auto Merge PR
+on:
+  pull_request:
+    types: [labeled, unlabeled, synchronize, opened, ready_for_review, reopened, unlocked]
+  pull_request_review:
+    types: [submitted]
+  check_suite:
+    types: [completed]
+  status: {}
+
+jobs:
+  automerge:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+    steps:
+      - name: Auto Merge
+        uses: pascalgn/automerge-action@v0.16.4
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          MERGE_LABELS: ""                 # 🔥 关键：空字符串 = 所有 PR 都自动合并
+          MERGE_METHOD: "merge"            # 合并方式：merge/squash/rebase
+          MERGE_FORKS: "true"              # 允许从 fork 合并
+          MERGE_RETRIES: "10"              # 重试次数
+          MERGE_RETRY_SLEEP: "3000"        # 每次重试间隔 3 秒
+          UPDATE_METHOD: "merge"           # 更新方式
+          MERGE_REQUIRED_APPROVALS: "0"    # 不需要审批
