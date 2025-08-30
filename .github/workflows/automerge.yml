@@ -11,11 +11,9 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Enable Auto-Merge
+      - name: Enable Auto-Merge (Merge Commit)
         run: |
-          gh pr merge ${{ github.event.pull_request.number }} --auto
+          gh pr merge ${{ github.event.pull_request.number }} --auto --merge
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
