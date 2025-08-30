@@ -1,26 +1,18 @@
 pull_request_rules:
-  - name: 🚀 当所有 Netlify 检查完成且审查通过时自动合并
+  - name: 🚀 当所有检查通过且审查批准时自动合并
     conditions:
-      # 👇 目标分支（请根据实际情况修改）
+      # 👇 基础分支
       - base=main
 
-      # 👇 所有 Netlify 检查必须完成（success 或 neutral）
-      - check-success=Netlify: Header rules - goatwiki
-      - check-success=Netlify: Pages changed - goatwiki
-      - check-success=Netlify: Redirect rules - goatwiki
-      - check-success=netlify/goatwiki/deploy-preview
+      # 👇 所有 Netlify 检查必须成功（或 neutral）
+      - "check-success=Netlify: Header rules - goatwiki"
+      - "check-success=Netlify: Pages changed - goatwiki"
+      - "check-success=Netlify: Redirect rules - goatwiki"
+      - "check-success=netlify/goatwiki/deploy-preview"
 
-      # 👇 至少一个代码审查批准
+      # 👇 至少一个批准的审查
       - "#approved-reviews-by>=1"
-
-      # 👇 确保没有合并冲突
-      - conflict=False
-
-      # 👇 可选：仅限文档类变更
-      # - files=docs/**,*.md,*.yaml
 
     actions:
       merge:
-        method: merge          # 或 squash / rebase
-        strict: true           # 自动同步主分支
-        strict_method: merge   # 使用 merge 方式更新
+        method: merge  # 可选: merge, squash, rebase
