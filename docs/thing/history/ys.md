@@ -170,14 +170,6 @@ document.addEventListener('DOMContentLoaded', function() {
     <source src="https://www.wsmdn.top/more/test.mp4" type="video/mp4">
 </video)
 <script src="https://cdn.plyr.io/3.7.8/plyr.js"></script>
-
-
-    
-
-
-
-
-
 <script src="/js/dist/autoload.js"></script>
  <script>
 // 页面加载完成后开始定期执行
