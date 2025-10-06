@@ -1,3 +1,10 @@
+<head>
+<!-- 在head中添加 -->
+<link rel="stylesheet" href="https://cdn.plyr.io/3.7.8/plyr.css" />
+
+<!-- 在body底部添加 -->
+
+</head>
 # 野史
 
 ## 茕羊民国进口奶粉检测出致癌物质
@@ -128,9 +135,46 @@
 [自卫视频](https://b23.tv/Cc4UW84)    
 ## 惊讶的刘峪企  
 刘裕企看见自己的吊没了belike：
- <video>
-        <source src="/video/lyq.mp4" type="video/mp4">
- </video>
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // 初始化视频播放器
+    const videoPlayer = new Plyr('video', {
+        controls: [
+            'play-large', 'play', 'progress', 'current-time', 
+            'duration', 'mute', 'volume', 'captions', 'settings', 
+            'pip', 'fullscreen'
+        ]
+    });
+    
+    // 初始化音频播放器
+    const audioPlayer = new Plyr('#my-audio-player');
+    
+    // 事件监听示例
+    videoPlayer.on('play', () => {
+        console.log('视频开始播放');
+    });
+    // 初始化页面上所有video和audio元素
+    const players = Plyr.setup('video, audio', {
+    controls: [
+        'play-large', 'play', 'progress', 'current-time',
+        'duration', 'mute', 'volume', 'fullscreen'
+    ]
+});
+});
+</script>
+<video id="my-video-player" playsinline controls>
+    <source src="/video/lyq.mp4" type="video/mp4">
+</video>
+
+[](<video id="my-video-player" playsinline controls>
+    <source src="https://www.wsmdn.top/more/test.mp4" type="video/mp4">
+</video)
+<script src="https://cdn.plyr.io/3.7.8/plyr.js"></script>
+
+
+    
+
+
 
 
 
