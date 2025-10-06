@@ -72,6 +72,16 @@ SOFTWARE.
     - 添加了多模型配置设置
   - 原始许可证文本：[点我查看](https://github.com/stevenjoezhang/live2d-widget/blob/master/LICENSE)
 
+- `https://cdn.plyr.io/3.7.8/plyr.js` (来自 plyr https://github.com/sampotts/plyr)  
+  - 许可证: MIT  
+  - 原始许可证文本:  
+>The MIT License (MIT)
+>Copyright (c) 2017 Sam Potts
+>Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+>The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+>THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+
 <script src="/js/dist/autoload.js"></script>
  <script>
 // 页面加载完成后开始定期执行
