@@ -92,7 +92,11 @@
 - 未通过任何议案
 
 ## 第十三次议会二中全会 {#20251007}
-- 通过了[维多利亚](../name/name.md#wdly)的辞职请求，[茕茕孑立的山羊](../name/name.md/#goat)成功竞选下届主席  
+- 通过了[维多利亚](../name/name.md#wdly)的辞职请求，[茕茕孑立的山羊](../name/name.md/#goat)成功竞选下届主席
+
+## 第十四次议会 {#20251012}
+- 通过了**《茕羊民国根本群规(修订案)》**
+- 公民大于LV3，才有选举权  
 
  <script src="/js/dist/autoload.js"></script>
  <script>
