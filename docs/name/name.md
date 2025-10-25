@@ -19,8 +19,8 @@
 
 ## mdn
 !!!本群在2025年4月前禁止提起mdn
-mdn：本站开发者，平平无奇的审稿人  
-主要作品：[mdn小破站](https://www.wsmdn.top)、[赤石工具箱NT](https://gitee.com/wsmdn/eat-redstone-nt)、[NBP简单色图](https://github.com/nomdn/nonebot-plugin-simple-setu)
+mdn是啥比，贪官污吏，叛徒，特务，反党分子，野心家，黑线人物，不革命，黑秀才，老好人，造谣公司，传话筒，中庸之道,大恶霸，修正主义，资本主义，翻动牌  
+主要作品：[mdn小破站](https://www.wsmdn.top)、[赤石工具箱NT](https://github.com/nomdn/EatRedstoneNT)、[NBP简单色图](https://github.com/nomdn/nonebot-plugin-simple-setu)、[茕羊论坛](https://bbs.goatproject.qzz.io/)
  
 ## 绿宝石 {#emerald}
 全名：Emerald_绿宝石  
