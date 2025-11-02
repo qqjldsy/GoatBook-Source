@@ -11,8 +11,8 @@ nav:
   - 群机构:
     - 茕羊纪律委员会: thing/jljcwyh.md
     - 柠檬都护府: thing/lemonhufu.md
-  - 人物志: name/name.md
-  - 物品集: name/name_thing.md
+  - 神人志: name/name.md
+  - 专有名词解释: name/name_thing.md
   - 开发者必读: todeveloper.md
 
 theme:
@@ -52,6 +52,7 @@ markdown_extensions:
   - pymdownx.superfences
   - attr_list
   - admonition
+
 
 
 
