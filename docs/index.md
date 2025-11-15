@@ -13,8 +13,8 @@
 * 于**2023年10月22日**建立  
 * 坐落于**QQ大陆**之上  
 * 群号：*313458052*（有可能迁徙）  
-* [Vampire_mumu设计的旗帜](https://img.wsmdn.dpdns.org/img/茕羊民国国旗.jpg)  
-* [绿宝石设计的国徽](https://img.wsmdn.dpdns.org/img/国徽.jpg)  
+* ![Vampire_mumu设计的旗帜](https://img.wsmdn.dpdns.org/img/茕羊民国国旗.jpg)  
+* ![绿宝石设计的国徽](https://img.wsmdn.dpdns.org/img/国徽.jpg)  
 
 ## 我到底要几把干什么
 我相信你绝对是茕羊民国的群成员，不然你看不见这个网站<br>
@@ -55,6 +55,7 @@ window.addEventListener('load', () => {
         crossorigin="anonymous"
         async>
 </script>
+
 
 
 
