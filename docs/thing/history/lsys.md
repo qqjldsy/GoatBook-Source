@@ -169,6 +169,11 @@
 ## 《长安条约》的签订
   `2025年11月7日´，茕羊民国割长安给C·C。  
 
+##  山羊行贿事件
+    `2025年11月6日´，据网传消息，民主党领导人[**茕山羊**](../../name/name.md#goat)疑似欲向[**mdn**](../../name/name.md#mdn)行贿，却遭拒绝。  
+[!铁正如山](https://img.wsmdn.dpdns.org/img/山羊行贿事件.jpg){ width=70% }
+  
+  
 
 <div id="giscus"></div>
 <script src="https://giscus.app/client.js"
