@@ -1,5 +1,5 @@
-name   名字: Auto Merge PR
-on:   :
+name: Auto Merge PR
+on:
   pull_request:
     types:
       - labeled
@@ -13,13 +13,13 @@ on:   :
     types:
       - completed
   status: { }
-jobs:   工作:
+jobs:
   automerge:
-    runs-on: ubuntu-latest   上运行:ubuntu-latest
+    runs-on: ubuntu-latest
     permissions:
       contents: write
       pull-requests: write
-    steps:   步骤:
+    steps:
       - name: automerge
         uses: "pascalgn/automerge-action@v0.16.4"
         env:
