@@ -7,12 +7,13 @@
 茕山羊全称**茕茕孑立的山羊**  
 原名**刘峪企**  
 ![刘大头](https://img.wsmdn.dpdns.org/img/real_goat.png){ width=35% }    
+![刘小头](https://img.wsmdn.dpdns.org/img/Image_1774087215938_391.jpg){ width=35% }  
 伟大的国父、开国元勋  
 曾多次担任总统(或主席)  
 一国两治思想的奠基人之一  
 一、三次文革的策划者  
 现任茕羊外交部部长、茕羊民国主席  
-[*点击本段文字播放😭😭😭国父颂😭😭😭*](https://img.wsmdn.dpdns.org/img/我们国父.mp4)
+[点击本段文字播放《国父颂》](https://img.wsmdn.dpdns.org/img/我们国父.mp4)
 
 ## 绿宝石 {#emerald}
 全名：Emerald_绿宝石  
