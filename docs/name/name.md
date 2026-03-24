@@ -20,6 +20,7 @@
 
 ## 绿宝石 {#emerald}
 全名：Emerald_绿宝石  
+![](https://img.wsmdn.dpdns.org/img/Image_67782075825501.jpg){ width=40% }  
 抗议郑智化运动时退出群聊  
 
 ## 我 {#me}
