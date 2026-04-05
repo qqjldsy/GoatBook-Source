@@ -519,7 +519,10 @@
 ## 茕羊分裂
   `2026年2月末左右`，山羊再次与群友爆发激烈的冲突，某位群成员明嘲暗讽地歧视原神玩家，山羊就此心态爆炸，感觉自己还是“没有资格”留在这个群里啊，最终山羊退出了群聊。不久后，咖啡猫与卿元羲改原茕羊为**猫娘俱乐部**。  
   `2026年2月25日`，山羊在长达两天的创作中，终于创作出了千古名篇——《茕马中线》  
-  ![剪影](https://img.wsmdn.dpdns.org/img/茕马中线剪影.jpg)   
+  <!-- 视频元素 -->
+  <video id="player" playsinline controls data-poster="https://img.wsmdn.dpdns.org/img/茕马中线剪影.jpg">
+    <source src="https://img.wsmdn.dpdns.org/img/%E8%8C%95%E9%A9%AC%E4%B8%AD%E7%BA%BF.mp4" type="video/mp4" />
+  </video>
   本作以旁观者视角表达了对茕羊曲折历史的辛酸。  
   `2026年3月初`，“无悔华夏花园口游泳馆VIP会员群”(一位b站up主的粉丝群)经历了封群危机，山羊以接收难民为由，成立了“长白山羁糜州”，群员人数一度发展到了60余人。  
   “无悔华夏花园口游泳馆VIP会员群”解封之后，山羊的权势愈发膨胀，中央再也无力管辖“长白山羁糜州”，随即，山羊宣布了独立，并将群聊的性质改为自己的粉丝群。  
@@ -544,7 +547,24 @@
 
 
 
-  
+  <!-- 你的其他脚本 -->
+<script src="/js/dist/autoload.js"></script>
+
+<!-- ✅ 正确引入 Plyr CSS 和 JS -->
+<link rel="stylesheet" href="https://cdn.plyr.io/3.6.12/plyr.css" />
+<script src="https://cdn.plyr.io/3.6.12/plyr.js"></script>
+
+<!-- ✅ 单独初始化 Plyr -->
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    console.log("Initializing Plyr...");
+    const player = new Plyr('#player');
+    
+    // 如果你还有 Live2D 相关逻辑，也可以放这里
+    updateWaifuStyle();
+    setInterval(updateWaifuStyle, 1000);
+  });
+</script>
 
 <div id="giscus"></div>
 <script src="https://giscus.app/client.js"
