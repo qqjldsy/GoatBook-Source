@@ -65,18 +65,6 @@
 - 来源：[rocketmq-rust](https://github.com/mxsm/rocketmq-rust)
 - 许可证：**MIT** 与 **Apache License 2.0**
 
-<script src="/js/dist/autoload.js"></script>
-<script>
-// 页面加载完成后开始定期执行
-window.addEventListener('load', () => {
-  console.log("Live2D waifu script loaded.");
-  updateWaifuStyle();
-  setInterval(() => {
-    console.log("running");
-    updateWaifuStyle();
-  }, 1000);
-});
-</script>
 
 <div id="giscus"></div>
 <script src="https://giscus.app/client.js"

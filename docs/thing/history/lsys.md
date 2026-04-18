@@ -561,7 +561,7 @@
 
 
   <!-- 你的其他脚本 -->
-<script src="/js/dist/autoload.js"></script>
+
 
 <!-- ✅ 正确引入 Plyr CSS 和 JS -->
 <link rel="stylesheet" href="https://cdn.plyr.io/3.6.12/plyr.css" />
@@ -574,8 +574,6 @@
     const player = new Plyr('#player');
     
     // 如果你还有 Live2D 相关逻辑，也可以放这里
-    updateWaifuStyle();
-    setInterval(updateWaifuStyle, 1000);
   });
 </script>
 

@@ -15,22 +15,7 @@
 如果你牛逼的要死，可以直接fork我的gh仓库并推送更改    
 如果你不会写东西，**看就行了**<br>
 
-<script src="./js/dist/autoload.js"></script>
- <script>
-// 页面加载完成后开始定期执行
-window.addEventListener('load', () => {
-  console.log("Live2D waifu script loaded.");
-  
-  // 初始执行一次
-  updateWaifuStyle();
 
-  // 每隔 1 秒检查一次 modelId 是否发生变化（例如其他脚本修改了 localStorage）
-  setInterval(() => {
-    console.log("running");
-    updateWaifuStyle();
-  }, 1000);
-});
-  </script>
 
 <script src="https://giscus.app/client.js"
         data-repo="nomdn/GoatBook-Source"
