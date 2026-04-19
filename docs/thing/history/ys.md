@@ -126,7 +126,7 @@
 
 ## 刘峪企自卫视频流出  
 13cm大雕，非常恐怖  
-[自卫视频](https://b23.tv/Cc4UW84)    
+[自卫视频](https://www.bilibili.com/video/BV1cChAzzEYb) <!--不要使用短链接-->   
 
 ## 惊讶的刘峪企 
 
