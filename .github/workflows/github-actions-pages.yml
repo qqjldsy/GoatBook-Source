@@ -12,6 +12,8 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      id-token: write
+      pages: write
     steps:
       - name: Checkout
         uses: actions/checkout@v4
@@ -31,15 +33,14 @@ jobs:
 
       - name: Build MkDocs Site
         run: mkdocs build
-      - name: Deploy
-        uses: peaceiris/actions-gh-pages@v4
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./site
-      - name: Upload Artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: gbs_offline
-          path: site
-          retention-days: 1
+          # Upload entire repository
+          path: './site'
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v5
 
