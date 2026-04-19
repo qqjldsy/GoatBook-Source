@@ -13,7 +13,9 @@ nav:
     - 茕羊史事记录委员会: thing/ssjl.md
     - 宁勐特别行政区: thing/lemonhufu.md
   - 神人志: name/name.md
-  - 专有名词解释: name/name_thing.md
+  - 文艺创作:
+    - 茕羊集: thing/wycz/茕羊集.md
+  - 专有名词: name/name_thing.md
   - 判决记录: thing/objection.md
   - 开发者必读: todeveloper.md
 
