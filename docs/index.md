@@ -1,4 +1,6 @@
 # Welcome to 茕羊维基
+![](https://img.wsmdn.dpdns.org/img/茕羊民国国旗.jpg)  
+![](https://img.wsmdn.dpdns.org/img/国徽.jpg){ width=40% }  
 
 ## 这是什么？
 
