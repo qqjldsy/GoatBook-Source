@@ -552,3 +552,19 @@
 
 在**文化方面**，各群员团结一心，共同创作出了许多有意思的视频。
 
+<script src="https://giscus.app/client.js"
+        data-repo="AloneGoatProject/GoatBook-Source"
+        data-repo-id="R_kgDOPXYjCw"
+        data-category="General"
+        data-category-id="DIC_kwDOPXYjC84Ctwim"
+        data-mapping="pathname"
+        data-strict="0"
+        data-reactions-enabled="1"
+        data-emit-metadata="0"
+        data-input-position="top"
+        data-theme="preferred_color_scheme"
+        data-lang="zh-CN"
+        data-loading="lazy"
+        crossorigin="anonymous"
+        async>
+</script>
