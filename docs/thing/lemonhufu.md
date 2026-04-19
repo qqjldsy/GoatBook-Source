@@ -28,19 +28,19 @@
 *虚构内容*
 
 
-<div id="giscus"></div>
 <script src="https://giscus.app/client.js"
-        data-repo="nomdn/GoatBook-Source"
+        data-repo="AloneGoatProject/GoatBook-Source"
         data-repo-id="R_kgDOPXYjCw"
         data-category="General"
         data-category-id="DIC_kwDOPXYjC84Ctwim"
-        data-mapping="title"
+        data-mapping="pathname"
         data-strict="0"
         data-reactions-enabled="1"
         data-emit-metadata="0"
         data-input-position="top"
         data-theme="preferred_color_scheme"
         data-lang="zh-CN"
+        data-loading="lazy"
         crossorigin="anonymous"
         async>
 </script>
