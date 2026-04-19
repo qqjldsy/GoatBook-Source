@@ -4,4 +4,4 @@
 给我点star!!!!
 ## Star History
 
-[![Star History Chart](https://api.star-history.com/svg?repos=nomdn/GoatBook-Source&type=date&legend=top-left)](https://www.star-history.com/#nomdn/GoatBook-Source&type=date&legend=top-left)
+[![Star History Chart](https://api.star-history.com/svg?repos=AloneGoatProject/GoatBook-Source&type=date&legend=top-left)](https://www.star-history.com/#AloneGoatProject/GoatBook-Source&type=date&legend=top-left)
