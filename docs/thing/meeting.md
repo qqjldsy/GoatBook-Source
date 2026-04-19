@@ -36,8 +36,7 @@
 - 确定管理员选举制度  
 - 踢出了LV＝1的成员（小号除外）  
 - 将看板娘加入wiki每一页 （现已删除😢）
-![](https://dlink.host/sharepoint/aHR0cHM6Ly94dGtkanhmaXRza2cxNjMtbXkuc2hhcmVwb2ludC5jb20vOmk6L2cvcGVyc29uYWwveHRrZGp4Zml0c2tnXzE2M19jb21fZXh0X194dGtkanhmaXRza2cxNjNfb25taWNyb3NvZnRfY29tL0lRQzRCXzVvaGVpZVRwWng5Y2tsU0pGckFVUVVrcnctN3BldHBscUQ5cWM3RndZP2U9S3k3UUZD.jpg){ width=20} <!--看到这个又臭又长的sharepoint直链吗？你现在需要把它移到mdn的图库上，然后把这个链接改了，再把这个sb注释删了-->
-<!--ps：可见山羊的名声有多臭了
+![](https://dlink.host/sharepoint/aHR0cHM6Ly94dGtkanhmaXRza2cxNjMtbXkuc2hhcmVwb2ludC5jb20vOmk6L2cvcGVyc29uYWwveHRrZGp4Zml0c2tnXzE2M19jb21fZXh0X194dGtkanhmaXRza2cxNjNfb25taWNyb3NvZnRfY29tL0lRQzRCXzVvaGVpZVRwWng5Y2tsU0pGckFVUVVrcnctN3BldHBscUQ5cWM3RndZP2U9S3k3UUZD.jpg){ width=40}   
  - *颁布宣告：以下页面加入看板娘*  
      - *会议记录*  
      - *野史*  
