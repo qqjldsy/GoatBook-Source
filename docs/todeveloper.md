@@ -65,7 +65,7 @@
 - 来源：[rocketmq-rust](https://github.com/mxsm/rocketmq-rust)
 - 许可证：**MIT** 与 **Apache License 2.0**
 
-## 5. 隐藏条测试
+<!-- ## 5. 隐藏条测试
 正常文字 <span class="blackout">隐藏内容</span>
  正常文字
 
@@ -82,7 +82,7 @@ AAA<div class="hover-block">
   </div>
 </div>AAA
 
-具体请参见 [隐藏条使用说明](隐藏条帮助.md)。
+具体请参见 [隐藏条使用说明](隐藏条帮助.md)。-->
 
 
 <script src="https://giscus.app/client.js"
