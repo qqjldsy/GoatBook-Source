@@ -59,8 +59,8 @@ markdown_extensions:
   - admonition
 
 #隐藏条设置
-extra_css:
-  - stylesheets/extra.css
+#extra_css:
+  #- stylesheets/extra.css
 
 
 
