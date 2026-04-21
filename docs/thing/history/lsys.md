@@ -82,9 +82,9 @@
 > 需要特别在此注明的是:在***三次文革***之前，大约七月初的一天晚上，已经有过一次由**温都尔汗坠机王**发动的革命，结局以失败告终，我们可以将其笼统的并入“***第三次无产阶级文化大革命***”
 
 尽管**温都尔汗坠机王**筹划周密，但仍被**茕茕孑立的山羊**发现了其篡政谋国的野心，随即果断下令，一举粉碎了“***第三次无产阶级文化大革命***”，挽救了国家政权。
-
-<p style="text-align: right;">![武斗文件](https://img.wsmdn.dpdns.org/img/武斗指示.jpg){ width=50% } </p>  <p style="text-align: left;">![决定](https://img.wsmdn.dpdns.org/img/决定.jpg){ width=50% }  </p>  
-![大字报1](https://img.wsmdn.dpdns.org/img/大字报1.jpg)  
+![武斗文件](https://img.wsmdn.dpdns.org/img/武斗指示.jpg){ width=50% }   
+![决定](https://img.wsmdn.dpdns.org/img/决定.jpg){ width=50% }  
+![大字报1](https://img.wsmdn.dpdns.org/img/大字报1.jpg){ width=50% }  
 
 ## 绿宝石英勇就义
 
