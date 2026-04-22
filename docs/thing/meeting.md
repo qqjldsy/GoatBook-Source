@@ -2,8 +2,7 @@
   <div style="flex: 1;">
     <img src="https://img.wsmdn.dpdns.org/img/国徽.jpg" style="width: 10%;">
   </div>
-  <div style="flex: 1;">
-国家会议  
+  <div style="flex: 1;">国家会议  
   </div>
 </div>
 
