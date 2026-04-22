@@ -2,8 +2,7 @@
   <div style="flex: 1;">
     <img src="https://img.wsmdn.dpdns.org/img/国徽.jpg" style="width: 10%;">
   </div>
-  <div style="flex: 1;">
-法律、行规、命令等
+  <div style="flex: 1;">法律、行规、命令等
   </div>
 </div>
 注:**本页的全部法律文件，请以群中发布的标准**  
