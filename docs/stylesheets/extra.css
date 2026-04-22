@@ -1,0 +1,121 @@
+/* ============================================== */
+/* MkDocs 5种隐藏/悬浮效果 完美适配暗黑模式最终版 */
+/* ============================================== */
+
+/* 1. 纯黑幕遮挡 */
+.blackout {
+  background-color: #000 !important;
+  color: #000 !important;
+  padding: 0 4px;
+  border-radius: 2px;
+  transition: all 0.2s ease;
+}
+.blackout:hover {
+  background-color: transparent !important;
+  color: inherit !important;
+}
+
+/* 2. 整行黑幕 */
+.blackout-line {
+  background-color: #000 !important;
+  color: #000 !important;
+  padding: 2px 6px;
+  border-radius: 3px;
+  display: inline-block;
+  transition: all 0.2s ease;
+}
+.blackout-line:hover {
+  background-color: transparent !important;
+  color: inherit !important;
+}
+
+/* 3. 萌娘百科模糊黑幕 */
+.spoiler-blur {
+  background: #1a1a1a;
+  color: transparent;
+  text-shadow: 0 0 6px rgba(255, 255, 255, 0.4);
+  padding: 0 5px;
+  border-radius: 3px;
+  transition: all 0.2s ease;
+  cursor: help;
+}
+.spoiler-blur:hover {
+  background: transparent;
+  color: inherit;
+  text-shadow: none;
+}
+
+/* -------------------------------------------------------------------------- */
+/* 4. 行内悬浮小提示（彻底修复暗黑模式） */
+/* -------------------------------------------------------------------------- */
+.hover-tip {
+  position: relative; /* 关键：让弹出层相对定位 */
+  border-bottom: 1px dashed #888;
+  cursor: help;
+  color: inherit;
+}
+/* 弹出层：脱离文档流，悬浮在上方 */
+.hover-tip .hover-content {
+  display: none;
+  position: absolute;
+  top: -30px; /* 向上弹出，不遮挡原文字 */
+  left: 0;
+  padding: 6px 10px;
+  border-radius: 4px;
+  white-space: nowrap;
+  z-index: 9999; /* 置顶显示，不被遮挡 */
+  box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+}
+/* 浅色模式 */
+[data-md-color-scheme="default"] .hover-tip .hover-content {
+  background: #ffffff !important;
+  color: #000000 !important;
+  border: 1px solid #e0e0e0;
+}
+/* 暗黑模式（slate） */
+[data-md-color-scheme="slate"] .hover-tip .hover-content {
+  background: #2d2d3f !important; /* 暗黑主题同色系背景 */
+  color: #ffffff !important;      /* 纯白文字 */
+  border: 1px solid #444455;
+}
+.hover-tip:hover .hover-content {
+  display: block !important;
+}
+
+/* -------------------------------------------------------------------------- */
+/* 5. 整块悬浮展开框（彻底修复暗黑模式） */
+/* -------------------------------------------------------------------------- */
+.hover-block {
+  padding: 12px 16px;
+  border-radius: 8px;
+  cursor: pointer;
+  margin: 1em 0;
+  transition: background 0.2s ease;
+}
+.hover-block .hover-block-content {
+  display: none;
+  margin-top: 12px;
+  padding-top: 12px;
+  border-top: 1px solid;
+}
+/* 浅色模式 */
+[data-md-color-scheme="default"] .hover-block {
+  background: #f5f5f7 !important;
+  color: #000000 !important;
+}
+[data-md-color-scheme="default"] .hover-block .hover-block-content {
+  border-top-color: #e0e0e0 !important;
+  color: #000000 !important;
+}
+/* 暗黑模式（slate） */
+[data-md-color-scheme="slate"] .hover-block {
+  background: #242430 !important; /* 暗黑主题背景色 */
+  color: #e0e0e0 !important;      /* 浅灰文字 */
+}
+[data-md-color-scheme="slate"] .hover-block .hover-block-content {
+  border-top-color: #3a3a48 !important; /* 深色分割线 */
+  color: #ffffff !important;            /* 纯白文字 */
+}
+.hover-block:hover .hover-block-content {
+  display: block !important;
+}

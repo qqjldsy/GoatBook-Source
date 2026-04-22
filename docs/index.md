@@ -1,4 +1,7 @@
 # Welcome to 茕羊维基
+![](https://img.wsmdn.dpdns.org/img/茕羊民国国旗.jpg)  
+![](https://img.wsmdn.dpdns.org/img/国徽.jpg){ width=40% }  
+<audio src="https://img.wsmdn.dpdns.org/img/audio/茕羊群歌.mp3" controls></audio>
 
 ## 这是什么？
 
@@ -18,7 +21,7 @@
 
 
 <script src="https://giscus.app/client.js"
-        data-repo="nomdn/GoatBook-Source"
+        data-repo="AloneGoatProject/GoatBook-Source"
         data-repo-id="R_kgDOPXYjCw"
         data-category="General"
         data-category-id="DIC_kwDOPXYjC84Ctwim"
@@ -29,6 +32,7 @@
         data-input-position="top"
         data-theme="preferred_color_scheme"
         data-lang="zh-CN"
+        data-loading="lazy"
         crossorigin="anonymous"
         async>
 </script>

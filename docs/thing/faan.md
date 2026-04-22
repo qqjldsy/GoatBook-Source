@@ -1,4 +1,10 @@
-# 法律、法规、行规、命令等
+<div style="display: flex; align-items: center; gap: 20px;">
+  <div style="flex: 1;">
+    <img src="https://img.wsmdn.dpdns.org/img/国徽.jpg" style="width: 10%;">
+  </div>
+  <div style="flex: 1;">法律、行规、命令等
+  </div>
+</div>
 注:**本页的全部法律文件，请以群中发布的标准**  
 ## 茕羊民国根本群规（2025年10月16日版）
 （***纯属虚构，纯属虚构，纯属虚构，你永远是中国人，读到以下信息的人，应该热爱祖国😡😡😡***）
@@ -579,20 +585,19 @@
 
 
 *虚构内容*  
-
-<div id="giscus"></div>
 <script src="https://giscus.app/client.js"
-        data-repo="nomdn/GoatBook-Source"
+        data-repo="AloneGoatProject/GoatBook-Source"
         data-repo-id="R_kgDOPXYjCw"
         data-category="General"
         data-category-id="DIC_kwDOPXYjC84Ctwim"
-        data-mapping="title"
+        data-mapping="pathname"
         data-strict="0"
         data-reactions-enabled="1"
         data-emit-metadata="0"
         data-input-position="top"
         data-theme="preferred_color_scheme"
         data-lang="zh-CN"
+        data-loading="lazy"
         crossorigin="anonymous"
         async>
 </script>

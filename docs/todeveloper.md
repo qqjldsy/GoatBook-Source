@@ -65,20 +65,39 @@
 - 来源：[rocketmq-rust](https://github.com/mxsm/rocketmq-rust)
 - 许可证：**MIT** 与 **Apache License 2.0**
 
+<!-- ## 5. 隐藏条测试
+正常文字 <span class="blackout">隐藏内容</span>
+ 正常文字
 
-<div id="giscus"></div>
+AAA<span class="blackout-line">这一整行都会被涂黑，悬浮显示<br>这是另一行</span>AAA
+
+正常文字 <span class="spoiler-blur">模糊隐藏，悬浮变清晰</span> 正常文字
+
+AAA<span class="hover-tip">鼠标移到这里<span class="hover-content">弹出的提示内容</span></span>AAA
+
+AAA<div class="hover-block">
+  鼠标悬浮展开
+  <div class="hover-block-content">
+    这里是隐藏的整块内容
+  </div>
+</div>AAA
+
+具体请参见 [隐藏条使用说明](隐藏条帮助.md)。-->
+
+
 <script src="https://giscus.app/client.js"
-        data-repo="nomdn/GoatBook-Source"
+        data-repo="AloneGoatProject/GoatBook-Source"
         data-repo-id="R_kgDOPXYjCw"
         data-category="General"
         data-category-id="DIC_kwDOPXYjC84Ctwim"
-        data-mapping="title"
+        data-mapping="pathname"
         data-strict="0"
         data-reactions-enabled="1"
         data-emit-metadata="0"
         data-input-position="top"
         data-theme="preferred_color_scheme"
         data-lang="zh-CN"
+        data-loading="lazy"
         crossorigin="anonymous"
         async>
 </script>

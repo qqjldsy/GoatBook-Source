@@ -1,4 +1,11 @@
-# 茕羊民国会议记录
+<div style="display: flex; align-items: center; gap: 20px;">
+  <div style="flex: 1;">
+    <img src="https://img.wsmdn.dpdns.org/img/国徽.jpg" style="width: 10%;">
+  </div>
+  <div style="flex: 1;">国家会议  
+  </div>
+</div>
+
 
 ## 第一次[议会](../name/name_thing.md#meeting) {#202571}
 **日期**：2025年7月1日  
@@ -9,7 +16,7 @@
 ## 第二次议会 {#2025712}
 **日期**：2025年7月12日  
 - 确定议会规则  
-- **Vampire_mumu**任宣传委员，获管理员职位  
+- **[Vampire_mumu](../name/name.md#mumu)**任宣传委员，获管理员职位  
 
 ## 第二次议会二中全会 {#2025714l}
 **日期**：2025年7月14日    
@@ -35,7 +42,8 @@
 **日期**: 2025年8月9日  
 - 确定管理员选举制度  
 - 踢出了LV＝1的成员（小号除外）  
-- 将看板娘加入wiki每一页  
+- 将看板娘加入wiki每一页 （现已删除😢）
+![](https://dlink.host/sharepoint/aHR0cHM6Ly94dGtkanhmaXRza2cxNjMtbXkuc2hhcmVwb2ludC5jb20vOmk6L2cvcGVyc29uYWwveHRrZGp4Zml0c2tnXzE2M19jb21fZXh0X194dGtkanhmaXRza2cxNjNfb25taWNyb3NvZnRfY29tL0lRQzRCXzVvaGVpZVRwWng5Y2tsU0pGckFVUVVrcnctN3BldHBscUQ5cWM3RndZP2U9S3k3UUZD.jpg){ width=40}   
  - *颁布宣告：以下页面加入看板娘*  
      - *会议记录*  
      - *野史*  
@@ -43,12 +51,12 @@
      - *物品集*  
      - *开发者必读*  
      - *群机构*
-
+-->
 ## 第六次议会 {#2025816}
 日期`2025/8/16`  
 - 都护府给机器人，主群1，3，5，7开放，可以定期申请入群，上限20人(除群主管理员)  
 - 出兵半天军校  
-- mdn任科技部部长  
+- [mdn](../name/name.md#mdn)任科技部部长  
   
 ## 第七次议会 {#2025823}  
 日期`2025/8/23`  
@@ -80,7 +88,7 @@
 日期`2025/9/20`  
 - 协商并通过了关于邀请新人的激励政策   
 - 决定于*2025/10/22*召开开国二周年庆典  
-- 判处mbf踢出群聊
+- 判处[mbf](../name/name.md#creeper)踢出群聊
 
 ## 第十二次议会 {#2025927}
 日期`2025/9/27`
@@ -117,11 +125,11 @@
 
 ## 第十八次议会 {#20251108}
 日期：2025/11/08  
-- 赦免温度尔汗醉机王  
-- 赦免是末末吖  
+- 赦免[温度尔汗醉机王](../name/name.md#linbiao)  
+- 赦免[是末末吖](../name/name.md#momo)  
 ### 第十八次议会二中全会 {#20251109}
 日期：2025/11/09  
-- 茕茕孑立的山羊就地卸职，选举**AF**为新一届主席
+- [茕茕孑立的山羊](../name/name.md#goat)就地卸职，选举[**AF**](../name/name.md#AF)为新一届主席
 
 ## 第十九次议会 {#20251116}
 日期：2025/11/16  
@@ -132,8 +140,8 @@
 
 ## 第二十次议会 {#20251122}
 日期：2025/11/16  
-- 授予了马步芳“沙壁”名誉头衔  
-- 确定马步芳不属于人类，所以不应当享有人权
+- 授予了[马步芳](../name/name.md#creeper)“沙壁”名誉头衔  
+- 确定[马步芳](../name/name.md#creeper)不属于人类，所以不应当享有人权
 
 ## 第二十一次议会 {#20251122}
 日期:2025/11/22  
@@ -144,22 +152,33 @@
 - 是否废除目前实行的约法17章？(也就是群公告置顶)——通过  
 - 确定是否恢复《茕羊人民共和国根本群规》《茕羊人民共和国刑规》《茕羊人民共和国选举法》《茕羊人民共和国防范智械危机法》《茕羊人民共和国监察法》——通过  
 - 确定国号——定国号为茕羊民国   
-- 任免议员——通过   
+- 任免议员——通过
+
+## 第一届全国议会
+### 第一次会议(4/5~4/12)
+1. 表决是否同意修改《茕羊民国根本群规》——通过 
+2. 表决是否通过《茕羊民国监察法》——通过  
+3. 提名两名纪律检查委员——温都尔汗坠机王、从头越  
+4. 是否通过《茕羊民国选举法》——通过  
+5. ~~表决是否设立█九█潮纪念日(设立在每年6月█日)  ——通过~~  
+### 第二次会议(4/12~4~19)
+1. 是否通过《茕羊民国集会游行示威法》——通过
+2. 是否同意修订《茕羊民国刑规》——通过  
  
 
-<div id="giscus"></div>
 <script src="https://giscus.app/client.js"
-        data-repo="nomdn/GoatBook-Source"
+        data-repo="AloneGoatProject/GoatBook-Source"
         data-repo-id="R_kgDOPXYjCw"
         data-category="General"
         data-category-id="DIC_kwDOPXYjC84Ctwim"
-        data-mapping="title"
+        data-mapping="pathname"
         data-strict="0"
         data-reactions-enabled="1"
         data-emit-metadata="0"
         data-input-position="top"
         data-theme="preferred_color_scheme"
         data-lang="zh-CN"
+        data-loading="lazy"
         crossorigin="anonymous"
         async>
 </script>

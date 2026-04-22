@@ -126,7 +126,7 @@
 
 ## 刘峪企自卫视频流出  
 13cm大雕，非常恐怖  
-[自卫视频](https://b23.tv/Cc4UW84)    
+[自卫视频](https://www.bilibili.com/video/BV1cChAzzEYb) 
 
 ## 惊讶的刘峪企 
 
@@ -136,20 +136,48 @@
   <source src="/video/lyq.mp4" type="video/mp4" />
 </video>
 
-<!-- Giscus 评论区（保持不变） -->
-<div id="giscus"></div>
+## 矩形运动
+2025年10月13日，茕羊自由促进会会员李超龙在羊京大桥上高举“打倒刘峪企，推翻茕羊民主党”横幅，随后，羊京警方将其逮捕。  
+
+2025年11月19日，桃源省一小区发生盒武器，由于此时木兹库勒市出现手机病毒文件传播，群聊政府进行封控，阻拦了小区的逃生通道，因此导致22人死亡。  
+2025年11月27-30日，大批市民走上街头，高举“矩形”，高唱《解放茕羊》、《茕羊民国颂》等歌曲。并高喊“不要封控要自由”。  
+
+- 2025年12月5日，市民堵塞交通、打砸商铺、纵火、破坏公共设施、侮辱群聊领导人，严重冲击民生与经济，重创旅游业、零售业等。  
+
+2026年1月，市民占据大学，与警方对峙，200余人被控暴动罪，多数获刑。  
+羊京警方严正执法，截至2026年中拘捕超万人，检控数千人，多起案件中被告被判暴动罪等，获严厉刑罚。  
+
+- 国安立法：2026年2月6日，茕羊参议院过《羊京国法》，为羊京止暴制乱、恢复秩序提供法律保障，社会重回稳定。  
+
+- 社会修复：羊京政府推进民生改善与社会和解，经济逐步复苏，法治与社会秩序全面恢复。  
+
+## 《茕羊民国国民政府最后宣言》的发表
+2026年1月24日18时48分，茕羊民国副总统以老资历的名义，宣布茕羊民国国民政府停止存在，命令大总统林彪解散国民政府，随后林彪解散国民政府，长达三年国祚的茕羊民国就此灭亡。  
+<p style="text-align: center;">《茕羊民国国民政府最后宣言》</p>  
+<p style="text-align: center;">刘峪企、林彪</p>  
+今大总统林彪已宣告辞职，世界和平，祖国独立自由之曙光再现，国家统一大势已成。  
+吾人昔迫于时局，以特殊方式组建政府，初衷冀求早日革命救国。今使命告终，无存续之必要，自即日起，茕羊民国国民政府正式宣告解散。  
+现决议将中央政治会议改为临时政务委员会、中央军事委员会改为治安委员会，专司善后交接、辖境治安，促各机关办结收尾事宜，静候国家统一接收。  
+凡我所属人员，均须恪尽职责，维持秩序，静待后续安排，勿生纷扰。  
+特此宣言。  
+<div style="text-align: right;">茕羊民国国民政府</div>  
+<div style="text-align: right;">民国三年一月二十四日</div>  
+
+
+
 <script src="https://giscus.app/client.js"
-        data-repo="nomdn/GoatBook-Source"
+        data-repo="AloneGoatProject/GoatBook-Source"
         data-repo-id="R_kgDOPXYjCw"
         data-category="General"
         data-category-id="DIC_kwDOPXYjC84Ctwim"
-        data-mapping="title"
+        data-mapping="pathname"
         data-strict="0"
         data-reactions-enabled="1"
         data-emit-metadata="0"
         data-input-position="top"
         data-theme="preferred_color_scheme"
         data-lang="zh-CN"
+        data-loading="lazy"
         crossorigin="anonymous"
         async>
 </script>

@@ -10,9 +10,13 @@ nav:
   - 群法案: thing/faan.md
   - 群机构:
     - 茕羊纪律委员会: thing/jljcwyh.md
-    - 宁勐: thing/lemonhufu.md
+    - 茕羊史事记录委员会: thing/ssjl.md
+    - 宁勐特别行政区: thing/lemonhufu.md
   - 神人志: name/name.md
-  - 专有名词解释: name/name_thing.md
+  - 文艺创作:
+    - 茕羊集: thing/wycz/茕羊集.md
+    - 青金石集: thing/wycz/青金石集.md
+  - 专有名词: name/name_thing.md
   - 判决记录: thing/objection.md
   - 开发者必读: todeveloper.md
 
@@ -26,8 +30,8 @@ theme:
 
     # Toggle light mode
     - scheme: default
-      primary: teal
-      accent: teal
+      primary: blue
+      accent: blue
       toggle:
         icon: material/weather-sunny
         name: Switch to light mode
@@ -55,6 +59,9 @@ markdown_extensions:
   - attr_list
   - admonition
 
+#隐藏条设置
+#extra_css:
+  #- stylesheets/extra.css
 
 
 
