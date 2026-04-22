@@ -1,4 +1,12 @@
-# 茕羊民国会议记录
+<div style="display: flex; align-items: center; gap: 20px;">
+  <div style="flex: 1;">
+    <img src="https://img.wsmdn.dpdns.org/img/国徽.jpg" style="width: 10%;">
+  </div>
+  <div style="flex: 1;">
+    国家会议  
+  </div>
+</div>
+
 
 ## 第一次[议会](../name/name_thing.md#meeting) {#202571}
 **日期**：2025年7月1日  
